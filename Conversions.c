@@ -1,4 +1,5 @@
 //decimal to octal
+
 #include<stdio.h>
 int main(){
     int num;

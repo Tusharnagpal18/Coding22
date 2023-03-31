@@ -1,7 +1,8 @@
-//experiment 1 question 1
+//Experiment 1 
+//Question 1
 
 
-lab-file-MCA
+//lab-file-MCA
 #include<stdio.h>
 #include<conio.h>
 void main()

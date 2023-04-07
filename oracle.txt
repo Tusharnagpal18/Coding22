@@ -1,0 +1,29 @@
+create table CLIENTMASTER (
+client_no VARCHAR2(6),Name2 VARCHAR2(20),ADDRESS1 VARCHAR2(30),ADDRESS2 VARCHAR2(30),
+CITY VARCHAR2(15),STATE VARCHAR2(15), pincode NUMBER(6),bal_due NUMBER(10,2));
+alter table CLIENTMASTER add DOB date;
+alter table clientmaster modify client_no number(10);
+select * from CLIENTMASTER
+alter table clientmaster drop COLUMN dob
+
+create table ProductMaster(
+product_no varchar(6),
+description VARCHAR2(20),
+profit_percentage number(6),
+unit_measure VARCHAR2(10),
+qty_on_hand number(6),
+reorder_lvl number(6),
+sell_price number(7,2),
+cost_price number(7,2)
+
+);
+select * from prod_Master;
+alter table productmaster rename column sell_price to sellPrice;
+alter table productmaster rename to prod_master
+drop table prod_master;
+drop table CLIENT_MASTER;
+
+==========
+create table student2(name VARCHAR2(20),id VARCHAR2(21));
+insert into STUDENT2(name,id) VALUES('ccs','00');
+select * from STUDENT2;

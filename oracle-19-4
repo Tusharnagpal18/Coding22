@@ -1,0 +1,28 @@
+-- we are creating a constraint  of reference key
+create table Marks2(studentid NUMBER constraints stu_id_fk references student(id),marksscored number(5,2));
+-- desc doesn't works in client side
+select * from marks2
+create table student(id number constraint stu_id_pk primary key)
+insert into student(id) values(4);
+select * from student
+insert into marks2(studentid,) values(3);      
+create table employee2(id number,id2 number constraints stu_id_nn NOT NULL);
+SELECT * from emp1;
+-- cannot insert null values
+insert into employee2(id) values(5)
+-- check constraints
+create table abc2 (sid number primary key,gender char(1), adhar number(10) UNIQUE );
+drop table abc2;
+
+alter table abc1 add constraint sid_pk1 primary key(sid);
+alter table abc add constraint primary key(sid)
+ drop table emp1
+-- default constraint
+create table emp1(empid number,doj date DEFAULT sysdate);
+insert into emp1(empid) values(1);
+select * from emp1
+-- composite primary key
+create table emp2(id number,id2 number, constraints s_id_pk primary key(id,id2));
+-- alter table emp2 add constraints
+drop table student
+drop table emp1

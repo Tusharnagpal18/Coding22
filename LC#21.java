@@ -15,7 +15,6 @@ Return the head of the merged linked list.
  */
  
  -------sol----------
- 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode ln=new ListNode();

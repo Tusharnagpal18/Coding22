@@ -13,7 +13,7 @@ Return the head of the merged linked list.
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
- 
+
  -------sol----------
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

@@ -12,6 +12,7 @@ Given the head of a linked list, remove the nth node from the end of the list an
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+//   the basic approach is to count the  elements and find nth node from back
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode slow,fast;

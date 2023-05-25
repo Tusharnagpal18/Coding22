@@ -1,3 +1,4 @@
+
 -- we are creating a constraint  of reference key
 create table Marks2(studentid NUMBER constraints stu_id_fk references student(id),marksscored number(5,2));
 -- desc doesn't works in client side

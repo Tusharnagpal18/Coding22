@@ -1,2 +1,2 @@
 # Coding Questions
-This Repository Containes Leetcode Questions and their solutions.
+This Repository Contains Leetcode Questions and their solutions.

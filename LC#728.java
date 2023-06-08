@@ -1,6 +1,6 @@
 728. Self Dividing Numbers
 A self-dividing number is a number that is divisible by every digit it contains.
-
+    
 For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.
 A self-dividing number is not allowed to contain the digit zero.
 
@@ -13,14 +13,14 @@ class Solution {
            for(int i=left;i<=right;i++){
                 res=i;
                 while(res!=0){
-                    int r=res%10;
-                    if(r==0){
-                    ctr=1;
-                    break;
+                        int r=res%10;
+                        if(r==0){
+                        ctr=1;
+                        break;
                     }
                     else if(i%r!=0){
-                    ctr=1;
-                    break;
+                        ctr=1;
+                        break;
                     }
                     res/=10; 
                 }

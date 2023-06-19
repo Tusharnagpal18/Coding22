@@ -5,7 +5,6 @@ In other words, if the number of positive integers in nums is pos and the number
 Note that 0 is neither positive nor negative.
 
 ===================Solution==========
-    
 class Solution {
     public int maximumCount(int[] nums) {
         int pn=0,nn=0;

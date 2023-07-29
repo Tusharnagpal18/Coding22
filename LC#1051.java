@@ -12,6 +12,7 @@ Return the number of indices where heights[i] != expected[i].
     public int heightChecker(int[] ht) {
         int ctr=0,size=ht.length;
         int[] lt=ht.clone();
+        // user defined function
         Arrays.sort(lt);
         for(int i=0;i<size;i++){
            if(lt[i]!=ht[i]){

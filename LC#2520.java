@@ -1,4 +1,4 @@
-                    Count the Digits That Divide a Number
+                                            Count the Digits That Divide a Number
 
 Given an integer num, return the number of digits in num that divide num.
 

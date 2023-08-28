@@ -5,6 +5,7 @@
 #include<conio.h>
 
 
+
 void main()
 {
  int age;

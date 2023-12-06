@@ -6,8 +6,7 @@ You are given an integer array heights representing the current order that the s
 Return the number of indices where heights[i] != expected[i].
 
 ==========SOL=======
-  
-  
+
   class Solution {
     public int heightChecker(int[] ht) {
         int ctr=0,size=ht.length;

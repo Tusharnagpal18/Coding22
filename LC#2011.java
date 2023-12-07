@@ -7,6 +7,7 @@ Initially, the value of X is 0.
 Given an array of strings operations containing a list of operations, return the final value of X after performing all the operations.
   ---------sol--------
   class Solution {
+  
     public int finalValueAfterOperations(String[] op) {
         int x=0;
         for(int i=0;i<op.length;i++){

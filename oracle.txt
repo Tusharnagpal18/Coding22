@@ -5,7 +5,7 @@ alter table CLIENTMASTER add DOB date;
 alter table clientmaster modify client_no number(10);
 select * from CLIENTMASTER
 alter table clientmaster drop COLUMN dob
-
+                              ----create table syntax------
 create table ProductMaster(
 product_no varchar(6),
 description VARCHAR2(20),

@@ -6,6 +6,7 @@ A self-dividing number is not allowed to contain the digit zero.
 
 Given two integers left and right, return a list of all the self-dividing numbers in the range [left, right]
 ========sol=========
+    
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
          int res=0,ctr=0;

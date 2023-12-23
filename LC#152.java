@@ -5,6 +5,7 @@ subarray
 The test cases are generated so that the answer will fit in a 32-bit integer. 
  
   ===============sol=============
+ 
   class Solution {
     public int maxProduct(int[] nums) {
          int curr=1,maxProd=Integer.MIN_VALUE;

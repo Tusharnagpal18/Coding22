@@ -1,4 +1,3 @@
-
 //Hackerank
   public static String twoArrays(int k, List<Integer> A, List<Integer> B) {
     // Write your code here

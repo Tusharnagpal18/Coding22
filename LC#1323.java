@@ -5,6 +5,7 @@ Return the maximum number you can get by changing at most one digit (6 becomes 9
 ----------sol---------
   class Solution {
     public int maximum69Number (int num) {
+      // to  convert string  to char array
         char[] c=Integer.toString(num).toCharArray();
         for(int i=0;i<c.length;i++){
             if(c[i]=='6'){

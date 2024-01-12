@@ -14,7 +14,6 @@ class Solution {
             else{
                 if(st.isEmpty())
                    return false;
-              
              char top=st.peek();
                 if((c==')' && top=='(') ||(c=='}' && top=='{') || (c==']' && top=='['))
                 {

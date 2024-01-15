@@ -1,6 +1,7 @@
 1351. Count Negative Numbers in a Sorted Matrix
                 --------------sol---------------------------- 
-class Solution {
+class Solution 
+{
     public int countNegatives(int[][] grid) {
         int len=grid.length,ctr=0;
         for(int i=0;i<len;i++){

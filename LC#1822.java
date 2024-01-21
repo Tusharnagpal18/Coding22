@@ -5,7 +5,6 @@ There is a function signFunc(x) that returns:
 0 if x is equal to 0.
 You are given an integer array nums. Let product be the product of all values in the array nums.
 Return signFunc(product)
-
   ====sol======
   class Solution {
     public int arraySign(int[] nums) {

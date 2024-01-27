@@ -4,6 +4,7 @@
 // BASIC HEADER FILES
 #include<stdio.h>
 #include<conio.h>
+
 void main()
 {
  int age;

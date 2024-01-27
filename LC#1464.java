@@ -3,6 +3,7 @@ Given the array of integers nums, you will choose two different indices i and j 
     
 ===========SOL=======
 class Solution{
+    
 // max product function to solve question
 public int maxProduct(int[] nums) {
     int max1 = Integer.MIN_VALUE,max2 = Integer.MIN_VALUE; 

@@ -2,7 +2,7 @@ Given a string path, where path[i] = 'N', 'S', 'E' or 'W', each representing mov
   
 Return true if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited. Return false otherwise.
 
-  ========sol===============\
+  ========sol===============
   class Solution {
     public boolean isPathCrossing(String path) {
         int x=0,y=0;

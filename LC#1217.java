@@ -5,7 +5,6 @@ We need to move all the chips to the same position. In one step, we can change t
 position[i] + 2 or position[i] - 2 with cost = 0.
 position[i] + 1 or position[i] - 1 with cost = 1.
 Return the minimum cost needed to move all the chips to the same position.
-
             ====sol=========
   class Solution {
     public int minCostToMoveChips(int[] pos) {
